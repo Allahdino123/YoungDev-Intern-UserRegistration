@@ -1,0 +1,93 @@
+body{
+    font-family: Moantserrt;
+}
+form{
+    background-color: #D3C6D2;
+    width: 500px;
+    margin: 8% auto;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 0px 30px rgba(0, 0, 0);
+
+}
+form h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+form p{
+    font-size: 14px;
+    color: gray;
+}
+
+form .input-box{
+    margin: 30px auto;
+    width: 80%;
+    position: relative;
+}
+form .input-box input{
+    width: 90%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    background: #fff;
+}
+
+span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 2px;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to right, #4caf50, #00bcd4);
+}
+span i{
+  padding: 12px;
+  color: white;
+  text-align: center;
+}
+
+button{
+    width: 180px;
+    height: 40px;
+    margin-left: 33%;
+    display: block;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    background: rgb(42, 42, 152);
+    box-shadow: 0 8px 10px -10px rgba(0, 0, 0);
+}
+button i{
+    margin-right: 10px;
+}
+.msg{
+    margin-left: 15px;
+    color: white;
+    padding: 2px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+}
+
+@media (max-width: 480px){
+    form {
+        background-color: #D3C6D2;
+        width: 300px;
+      
+    }
+    form .input-box {
+        margin: 10px auto;
+        width: 80%;
+        position: relative;
+    }
+    button {
+        width: 180px;
+        height: 40px;
+        margin-left: 20%;
+        
+    }
+}
